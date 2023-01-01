@@ -90,7 +90,7 @@ func main() {
 	json.Unmarshal(bodyBytes, &respm)
 
 	if resp.StatusCode == 200 {
-		CreateReponse(os.Args[1], strings.ReplaceAll(respm.Choices[0].Text, "\n", ""))
+		CreateReponse(os.Args[1], strings.Replace(respm.Choices[0].Text, "\n", "", 2))
 	} else {
 		CreateError("Error during the request.")
 	}
