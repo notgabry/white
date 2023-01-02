@@ -1,7 +1,7 @@
 <div align="center">
 
 ## ⭐ White
-ChatGPT-3 on the terminal 🕶
+🌺 ChatGPT-3 on the terminal.
 
 </div>
 
@@ -25,11 +25,20 @@ ChatGPT-3 on the terminal 🕶
 To use white you have 2 options
 1. With default MaxTokens
 ```sh
-white "query"
+white -q "query"
 ```
 2. Manually specifying MaxTokens
 ```sh
-white "query" <MaxTokens here>
+white -q "query" <MaxTokens here>
+```
+
+<br>
+
+
+### 📩 Stats
+If you want to check your stats run this
+```sh
+white -s
 ```
 
 <br>
