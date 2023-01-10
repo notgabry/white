@@ -24,12 +24,12 @@
 ### ❔ Running
 To use white you have 2 options
 1. With default MaxTokens
-```sh
-white -q "query"
+```shell 
+$ white -q "query"
 ```
 2. Manually specifying MaxTokens
-```sh
-white -q "query" <MaxTokens here>
+```shell
+$ white -q "query" <MaxTokens here>
 ```
 
 <br>
@@ -37,8 +37,8 @@ white -q "query" <MaxTokens here>
 
 ### 📩 Stats
 If you want to check your stats run this
-```sh
-white -s
+```shell
+$ white -s
 ```
 
 <br>
