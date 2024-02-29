@@ -7,7 +7,7 @@
 
 ### 📥 Install
 *Only for Linux*
-1. Download the [`white`](https://raw.githubusercontent.com/NotGabry/white/main/bin/white) file
+1. Download the release file
 2. Move the file to `/usr/local/bin`
 3. Create a file with this path `/home/your-user/.white/config.json`
 4. Paste there the template down below
