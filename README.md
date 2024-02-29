@@ -1,7 +1,7 @@
 <div align="center">
 
 ## ⭐ White
-🌺 ChatGPT-3 on the terminal.
+🌺 GPT-3 on the terminal.
 
 </div>
 
